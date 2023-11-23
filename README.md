@@ -1,7 +1,7 @@
 # RTSMS
 Randomized Tucker with single-mode sketching
 
-This repository contains an implementation of RTSMS which is designed to approximate the Tucker decomposition of a given tensor of order d. It is common practice in the landscape of randomized tensor decompositions to use sketching from multiple sides simultaneously. A distinct feature of RTSMS is that it takes the simpler approach of sketching from just one side at a time. The methodology draws inspiration from the generalized Nystrom and STHOSVD techniques, incorporating leverage scores, regularization, and iterative refinement to ensure both efficiency and stability in the computation of factor matrices.
+This repository contains an implementation of RTSMS which is designed to approximate the Tucker decomposition of a given tensor of order d. It is common practice in the landscape of randomized tensor decompositions to use sketching from multiple sides simultaneously. A distinct feature of RTSMS is that it takes the simpler approach of sketching from just one side at a time. The methodology draws inspiration from the generalized Nystrom and the sequentially truncated HOSVD while incorporating leverage scores, regularization, and iterative refinement to ensure both efficiency and stability in the computation of factor matrices.
 
 Users have the flexibility to input either their desired multilinear rank or a tolerance on the residual. In the latter case, RTSMS automatically determines the appropriate multilinear rank.
 
