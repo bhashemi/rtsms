@@ -15,4 +15,4 @@ Reference
 =============================
 For a detailed explanation of RTSMS and its applications, please see the following manuscript:
 
-B. Hashemi and Y. Nakatsukasa, RTSMS: randomized Tucker with single-mode sketching, submitted, 2023.
+B. Hashemi and Y. Nakatsukasa, RTSMS: randomized Tucker with single-mode sketching, submitted, 2023, https://arxiv.org/abs/2311.14873.
